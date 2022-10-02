@@ -25,8 +25,9 @@ function Header() {
                                                 <li><Link to="post.html">Blog Single</Link></li>
                                             </ul>
                                         </li> */}
-                                        <li><Link to="">Contacts</Link></li>
                                         <li><Link to="team">Team</Link></li>
+                                        <li><Link to="process">Process</Link></li>
+                                        <li><Link to="contact">Contacts</Link></li>
                                     </ul>
                                 </nav>
                             </div>

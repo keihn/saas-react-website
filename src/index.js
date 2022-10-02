@@ -16,6 +16,8 @@ import Header from './components/Header';
 import Home from "./components/Home"
 import Footer from './components/Footer';
 import Team from './components/Team';
+import Process from './components/Process';
+import Contact from './components/Contact';
 
 
 function Index() {
@@ -25,6 +27,8 @@ function Index() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/team' element={<Team />} />
+          <Route path='/process' element={<Process />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       <Footer/>
     </BrowserRouter>
